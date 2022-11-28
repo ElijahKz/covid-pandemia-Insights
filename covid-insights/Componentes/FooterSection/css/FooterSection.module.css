@@ -1,0 +1,137 @@
+/*------------------------*/
+
+/*div.mixExperienceCarrousel + div.mixFooterSection{
+    margin-top: 34.5em;
+}*/
+
+.mixFooterSection {
+    /* margin-top: 34.5em;*/
+   /* position: absolute;
+    left: 0;
+    width: 102vw;*/
+    width: 102vw;
+    background-color: #201F39;
+    min-height: 36.9em;
+}
+
+/*------------------------*/
+
+.mixFooterImage {
+    background-image: url("../img/email.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 28.5em;
+    transform: scale(0.885);
+}
+
+/*------------------------*/
+
+.mixFooterInformation {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding-left: 10em;
+}
+
+/*------------------------*/
+
+.mixFooterTitle {
+    font-family: 'sans-serif', 'Tahoma', 'Verdana', 'Segoe UI';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    width: 8em;
+}
+
+/*------------------------*/
+
+.mixFooterLittleCont {
+    width: 100em;
+}
+
+.mixRedValue, .mixRedName{
+    font-family: 'sans-serif', 'Tahoma', 'Verdana', 'Segoe UI';
+    font-style: normal;
+    
+    font-size: 1.1em;
+}
+.mixRedValue{
+    font-weight: lighter;
+}
+/*-----------------------*/
+
+.mixFooterDescription {
+    margin-top: 1em;
+    
+    text-align: justify;
+    color: #ffffff;
+    width: 22em;
+}
+
+.mixRedName {
+    color: #969696;
+}
+
+.mixNetworks {
+    margin-top: 1em;
+    width: 20em;
+}
+
+/*-------------Desktop up --------*/
+
+.mixContactContainer {
+    width: 93%;
+    border-top: 2px solid #C4C4C4;
+    min-height: 3em;
+}
+
+/** mobile */
+
+@media only screen and (max-width: 600px) {
+    /*  div.mixExperienceCarrousel + div.mixFooterSection{
+        margin-top: 48.5em;
+    }*/
+    .mixFooterSection {
+        /* margin-top: 48.5em;*/
+      /*  left: 0;
+        width: 104vw;*/
+        width: 103vw;
+        background-color: #201F39;
+        min-height: 50em;
+        padding-bottom: 1em;
+    }
+    .mixFooterImage {
+        margin-top: 2em;
+        height: 5em;
+        transform: scale(0.885);
+        /*border: 1px solid red;*/
+    }
+    .mixFooterTitle{
+        padding-left: 0.5em;
+       text-align: left;
+    }
+    .mixFooterLittleCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 23em;
+        height: auto;
+        /* border: 2px solid brown;*/
+    }
+    .mixFooterDescription {
+        width: auto;
+        height: 7em;
+        /*  border: 3px solid pink;*/
+    }
+    .mixFooterInformation {
+        padding-left: 1em !important;
+        width: auto;
+        /*border: 1px solid pink;*/
+        padding: 0;
+    }
+}
