@@ -17,6 +17,7 @@ const fetchData = async (setList) => {
 
 
 
+import styles from './css/CovidContent.module.css'
 
 /* this component shows the information about*/
 const CovidContent = () => {
@@ -31,8 +32,8 @@ const CovidContent = () => {
     return (
         <div>
             <div>
-                <table class="table">
-                    <thead class="thead-dark">
+                <table className="table">
+                    <thead className="thead-dark">
                         <tr>
                             <th scope="col">Country</th>
                             <th scope="col">CountryCode</th>
