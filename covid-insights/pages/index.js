@@ -1,7 +1,7 @@
 import React from 'react'
 import HeadAppComponent from '../Componentes/HeadAppComponent/HeadAppComponent'
 import AppContainer from '../Componentes/AppContainer/AppContainer'
-
+import CovidContent from '../Componentes/LoadingContent/CovidContent'
 
 class Index extends React.Component {
     constructor(props) {
@@ -16,11 +16,9 @@ class Index extends React.Component {
             <>
                 <HeadAppComponent />
                 <AppContainer>
-                  <br/>
-                  <br/>
-                  <br/>
-                  <br/>
-                    <h1> Hello</h1>
+                    <h1> Welcome Covid App</h1>
+                    <h1>Covid Information</h1>
+                    <CovidContent/>
                 </AppContainer>
             </>
 
