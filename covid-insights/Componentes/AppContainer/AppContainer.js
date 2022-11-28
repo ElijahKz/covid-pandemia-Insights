@@ -7,8 +7,11 @@ import $ from 'jquery'
 const mixContainer = {
 
     width: "103%",
-    padding: "0",
+    padding: "5em",
     margin: "0",
+    display: "flex",
+    justifyContent:"center",
+    flexDirection:"column"
 
 
 };

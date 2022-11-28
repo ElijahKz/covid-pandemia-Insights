@@ -31,7 +31,7 @@ const CovidContent = () => {
 
     return (
         <div>
-            <div>
+            <div className={styles.MixTableContainer}>
                 <table className="table">
                     <thead className="thead-dark">
                         <tr>
